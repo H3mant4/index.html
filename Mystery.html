@@ -1,35 +1,100 @@
 <!DOCTYPE html>
 <html>
-<head>
+
+<center><h1>Guess Who?!?!?</h1></center>
+<center><p> Can you guess the character based on the clues? Click each question mark to find out!!!</p><center>
+
 <style>
-body {
-  background-color: Red;
+body{
+  background-color: darkred;
 }
+  
  body {color: White;
   text-align: center;}
 
 body {font-family:'Courier New', monospace;
-  font-size:35px;}
+  font-size:35 px;}
   
 p {font-family:'Courier New', monospace;
-  font-size:25px;}
+  font-size:25 px;}
 
 </style>
 </head>
 <body>
-
-<h1>Guess Who?!?!?</h1>
-<p> Can you guess the character based on the clues? Click each question mark to find out!!!</p> 
 
 <head>
 <style>
 
 #grad1 {
-  height: 700px;
+  width: 1500 px;
+  height: 150 px;
   background-color: blue; /* For browsers that do not support gradients */
-  background-image: linear-gradient(red, blue);}
+  background-image: linear-gradient  (darkred, blue);}
 </style>
 </head>
 <body>
 
 <div id="grad1"></div>
+
+<head>
+<style>
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 5 px;
+  background-color: #2196F3;
+  padding: 50 px;
+}
+
+.grid-container > div {
+  background-color: rgba  (255, 255, 255, 0.8);
+  border: 10 px solid black;
+  font-size: 20 px;
+  height: 300 px;
+  width:300 px
+}
+</style>
+</head>
+<body>
+
+
+<div class="grid-container">
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>  
+  <div></div>
+  <div></div>
+  <div></div>
+
+
+
+<head>
+<style>
+
+div {
+  width: 1500 px;
+  height: 800 px;
+  background-color: blue;
+  animation-name: example;
+  animation-duration: 8 s;
+  animation-iteration-count:100;
+}
+
+
+@keyframes example {
+  0 %   {background-color: darkred;}
+  25 %  {background-color: Blue;}
+  50 %  {background-color: darkred;}
+  100  % {background-color: Blue;}
+}
+</style>
+</head>
+<body>
+
+
+<div></div>
+
+  
+
+ 
